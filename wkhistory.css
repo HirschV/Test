@@ -1,0 +1,137 @@
+/*
+   --------------------------------------------------
+   WestHistorySite.css
+   This is the base cascading style sheet for
+   the West Kingdom History website. 
+
+   Created by Hirsch von Henford (mka Ken Mayer)
+   Concepts from many different sources ... 
+   ---------------------------------------------------
+*/
+
+body { 
+       font-family: Arial, Helvetica, sans-serif; 
+       font-size: 16px; 
+       color: #000000; 
+       background-color: #FFFFFF; 
+      }
+
+td { 
+      font-family: Arial, Helvetica, sans-serif; 
+      font-size: 16px; 
+   }
+th { 
+      font-family: Arial, Helvetica, sans-serif; 
+      font-size: 18px; 
+   }
+
+h1 { 
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 24px; 
+     font-weight: bold; 
+     color: #0000FF; 
+   }
+h2 { 
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 20px; 
+     font-weight: bold; 
+     color: #0000FF; 
+   }
+h3 { 
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 18px; 
+     font-weight: bold; 
+     color: #0000FF; 
+    }
+
+hr
+   {
+      border: 0;
+      color: #CFDCE6;
+      background-color: #CFDCE6;
+      height: 1px;
+   }
+
+.Note { 
+        font-size: 16px;
+        text-align: justify;
+        width: 75%;
+        padding: 6px;
+        background-color: #FFFFCC;
+        color: green;
+        border: solid;
+        border-width: 1px;
+        border-top-width: 3px;
+        border-color: green;
+      }
+
+/* Table with alternating rows, colored heading ... */
+table.colored 
+     { 
+      border: 1px solid #CFDCE6; 
+      border-collapse: collapse; 
+      background-color: #507EA1; 
+      color: #FFFFFF; 
+      font: 1em Arial, Verdana, Helvetica, sans-serif; 
+      width: 100%; 
+     } 
+      
+table.colored tr 
+     { 
+      vertical-align: top; 
+      background-color: #FFFFFF; 
+      color: #000000; 
+     } 
+      
+table.colored tr.even 
+     { 
+      background-color: #ECECEC; 
+      color: #000000; 
+     }    
+      
+table.colored th 
+     { 
+      border: 1px solid #CFDCE6;
+      background-color: #507EA1; 
+      color: #FFFFFF; 
+      padding: 0.2em; 
+      text-align: center; 
+      font-size: 1.2em;
+     } 
+   
+table.colored td 
+     { 
+      font: 1em Arial, Verdana, sans-serif; 
+      padding: 0.2em; 
+      border: 1px solid #CFDCE6; 
+     } 
+
+/* Table where we don't WANT a border ...*/
+
+table.NoBorder
+    {
+       border-style: none;
+       border-width: 0px;
+    }
+table.NoBorder tr, th, td
+   {
+      border-style: none;
+      border-width: 0px;
+   }
+
+/* BlockQuotes with left border set */
+blockquote.RedLeft
+   {
+      padding: 0.2em;
+      border-left: 2px solid #FF6699;
+   }
+blockquote.BlueLeft
+   {
+      padding: 0.2em;
+      border-left: 2px solid #33CCFF;
+   }
+blockquote.GreenLeft
+   {
+      padding: 0.2em;
+      border-left: 2px solid #99FF99;
+   }
